@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39;; img-src &#39;self&#39; data:; font-src &#39;self&#39;; connect-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Como funciona · Túnel do Tempo</title>
+<meta name="description" content="Quem entra no arquivo, como cada caso é checado e atualizado, e de onde vêm os dados abertos.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://tuneldotempo.github.io/como-funciona/"><link rel="preload" href="/static/fonts/anton-400-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/fontes.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/estilo.css">
+<script src="/static/app.js"></script>
+</head>
+<body>
+<header class="topo">
+  <div class="wrap">
+    <a class="logo" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="8" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/><rect x="5.5" y="5.5" width="17" height="17" rx="5.5" stroke="currentColor" stroke-opacity=".7" stroke-width="1.5"/><rect x="10.5" y="10.5" width="7" height="7" rx="2" fill="currentColor"/></svg>Túnel do Tempo <span class="periodo">2026 → 2030</span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="/">Linha do tempo</a>
+      <a href="/pessoas/">Pessoas</a>
+      <a href="/estados/">Por estado</a>
+      <a href="/como-funciona/" aria-current="page">Como funciona</a>
+    </nav>
+    <a class="busca" href="/busca/"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>Buscar nome, partido ou estado</a>
+    <div class="so-mobile"><a href="/busca/" aria-label="Buscar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></a></div>
+  </div>
+</header>
+<main id="conteudo">
+<div class="wrap pagina com-indice">
+  <nav class="indice" aria-label="Nesta página">
+    <a href="#o-que-e">O que é</a><a href="#quem-entra">Quem entra</a><a href="#categorias">Categorias</a><a href="#escada">A escada do caso</a><a href="#fontes">Fontes e cópias</a><a href="#outro-lado">O outro lado</a><a href="#dados">Dados abertos</a><a href="#ia">Onde entra a IA</a><a href="#correcoes">Correções</a><a href="#quem-mantem">Quem mantém</a>
+  </nav>
+  <article class="prosa">
+    <p class="label accent">Como funciona</p>
+    <h1 class="manchete" style="font-size:clamp(44px,6vw,84px)">Memória com <em>método.</em></h1>
+    <p class="lead">O Túnel do Tempo guarda o que figuras públicas fizeram entre a eleição de 2026 e a de 2030. Nada entra sem fonte, nada sai sem explicação, e todo caso mostra em que pé está na Justiça.</p>
+
+    <h2 id="o-que-e">O que é</h2>
+    <p>Um arquivo público e independente com dois tipos de informação. Os <strong>registros</strong> contam condutas: falas, assédio, ataques, investigações e processos. Os <strong>dados abertos</strong> mostram o que cada eleito faz com o mandato: gastos, votações, projetos e atos no Diário Oficial.</p>
+
+    <h2 id="quem-entra">Quem entra</h2>
+    <ul>
+      <li><strong>Políticos de direita:</strong> eleitos, candidatos, inclusive derrotados, e dirigentes partidários. Entra quem se declara de direita em público ou é filiado a partido de direita. A declaração da própria pessoa vale mais que o partido, nos dois sentidos. A ficha de cada pessoa mostra o motivo e a fonte.</li>
+      <li><strong>Faixas de partido:</strong> Extrema direita, Direita, Centro-direita, segundo a classificação ideológica dos partidos brasileiros feita por especialistas (Bolognesi, Ribeiro e Codato).</li>
+      <li><strong>Famosos e influenciadores de qualquer lado</strong> que cometam as condutas da lista abaixo, desde que tratados como figura pública por pelo menos dois veículos profissionais.</li>
+      <li><strong>Cidadão comum nunca entra</strong>, mesmo que o caso tenha viralizado.</li>
+    </ul>
+
+    <h2 id="categorias">Categorias</h2>
+    <p>Todo registro tem uma categoria de uma lista fechada:</p>
+    <div class="metas"><span class="chip">Assédio eleitoral</span><span class="chip">Xenofobia</span><span class="chip">Racismo</span><span class="chip">Misoginia</span><span class="chip">LGBTfobia</span><span class="chip">Desinformação</span><span class="chip">Ataque à democracia</span><span class="chip">Violência política</span><span class="chip">Dinheiro público</span><span class="chip">Corrupção</span><span class="chip">Ataque à imprensa</span><span class="chip">Intolerância religiosa</span><span class="chip">Capacitismo</span></div>
+
+    <h2 id="escada">A escada do caso</h2>
+    <p>Todo registro mostra o degrau em que o caso está, e o degrau muda quando o caso anda.</p>
+    <div class="definicoes">
+      <div class="definicao"><span><span class="selo ">Declaração</span></span><p>A pessoa disse ou publicou. Ainda não há investigação aberta.</p></div>
+      <div class="definicao"><span><span class="selo apuracao">Em apuração</span></span><p>Ministério Público, polícia ou outro órgão abriu procedimento.</p></div>
+      <div class="definicao"><span><span class="selo acao">Ação na Justiça</span></span><p>Há ação civil, denúncia ou decisão judicial em andamento.</p></div>
+      <div class="definicao"><span><span class="selo acao">Réu</span></span><p>A Justiça aceitou a denúncia e a pessoa responde ao processo.</p></div>
+      <div class="definicao"><span><span class="selo condenado">Condenado</span></span><p>Houve condenação, mas ainda cabe recurso.</p></div>
+      <div class="definicao"><span><span class="selo condenado">Condenado em definitivo</span></span><p>Não cabe mais recurso. Só aqui o arquivo usa a palavra crime.</p></div>
+      <div class="definicao"><span><span class="selo encerrado">Arquivado</span></span><p>O caso foi arquivado. O registro fica, com o desfecho em destaque.</p></div>
+      <div class="definicao"><span><span class="selo encerrado">Absolvido</span></span><p>A pessoa foi absolvida. O registro fica, com o desfecho em destaque.</p></div>
+    </div>
+
+    <h2 id="fontes">Fontes e cópias arquivadas</h2>
+    <p>Cada registro tem pelo menos duas fontes: matéria de veículo profissional, documento oficial, decisão judicial ou a publicação original. No dia da curadoria, cada fonte ganha uma cópia no Wayback Machine sempre que o serviço consegue guardar. Quando não consegue, o registro avisa. Post apagado continua comprovado.</p>
+
+    <h2 id="outro-lado">O outro lado</h2>
+    <p>Quando a pessoa responde, a resposta aparece no registro, com data e fonte. Quem é citado pode pedir direito de resposta na <a href="/correcoes/">página de correções</a>.</p>
+
+    <h2 id="dados">Dados abertos</h2>
+    <table class="tabela">
+      <thead><tr><th>Fonte</th><th>O que aparece na ficha</th></tr></thead>
+      <tbody>
+        <tr><td>Câmara dos Deputados</td><td>Gastos da cota, votações nominais, projetos e presença</td></tr>
+        <tr><td>Senado Federal</td><td>Gastos, votações e matérias de autoria</td></tr>
+        <tr><td>Tribunal Superior Eleitoral</td><td>Candidatura, partido e votos</td></tr>
+        <tr><td>Portal da Transparência</td><td>Emendas parlamentares</td></tr>
+        <tr><td>Diário Oficial da União</td><td>Nomeações e atos com o nome do eleito</td></tr>
+        <tr><td>Assembleias estaduais</td><td>Quando houver dado aberto; cada estado publica de um jeito</td></tr>
+      </tbody>
+    </table>
+    <p>Dado aberto mostra fato público do mandato, não acusação. Cada bloco da ficha traz a data da coleta e o link para a origem. CPF, telefone e endereço nunca aparecem; fornecedor pessoa física aparece só como "Pessoa física".</p>
+
+    <h2 id="ia">Onde entra a IA</h2>
+    <p>Uma IA ajuda a procurar casos novos e mudanças de status. Em outra etapa, separada da primeira, outra execução confere se cada fonte existe e diz o que o caso afirma. <strong>Nenhum registro é publicado sem a revisão de uma pessoa.</strong></p>
+
+    <h2 id="correcoes">Correções e direito de resposta</h2>
+    <p>Errou alguma coisa? Mande a correção com a fonte. Toda mudança fica no <a href="/correcoes/">histórico público</a>.</p>
+
+    <h2 id="quem-mantem">Quem mantém</h2>
+    <p>Uma pessoa física, sem impulsionamento pago.</p>
+  </article>
+</div>
+</main>
+<footer class="rodape">
+  <div class="wrap">
+    <div class="l1">
+      <div class="sobre">
+        <span class="logo"><span style="color:var(--accent)"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="1" y="1" width="26" height="26" rx="8" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/><rect x="5.5" y="5.5" width="17" height="17" rx="5.5" stroke="currentColor" stroke-opacity=".7" stroke-width="1.5"/><rect x="10.5" y="10.5" width="7" height="7" rx="2" fill="currentColor"/></svg></span>Túnel do Tempo</span>
+        <p>Arquivo independente, mantido por pessoa física. Todo registro cita fontes públicas, mostra o status na Justiça e o que a pessoa respondeu. Viu um erro? Peça correção e a gente revisa.</p>
+      </div>
+      <nav class="links" aria-label="Rodapé">
+        <a href="/como-funciona/">Como funciona</a>
+        <a href="/correcoes/">Correções</a>
+        <a href="/como-funciona/#fontes">Fontes</a>
+        <a href="/feed.xml">RSS</a>
+        <a href="mailto:contato.tunel.do.tempo2026@gmail.com">Fale com o arquivo</a>
+      </nav>
+    </div>
+    <div class="l2">
+      <span class="label">Última coleta 29 out 2026 15:40 · próxima 5 nov 2026</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
